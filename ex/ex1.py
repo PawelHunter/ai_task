@@ -10,7 +10,7 @@ def load_data_from_file(file_name ) -> None:
 
 # Replace 'API_KEY' with your actual API key
 # API_KEY = 'API_KEY'
-load_data_from_file(r"..\data\key.json")
+load_data_from_file(r"../data/key.json")
 
 
 #step1
