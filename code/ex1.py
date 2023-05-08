@@ -16,7 +16,7 @@ load_data_from_file(r"..\data\key.json")
 #step1
 url = 'https://zadania.aidevs.pl/token/helloapi'
 data_1 = {'apikey': globals()["API_KEY"]}
-headers = {'Content-type': 'application/json'}
+
 
 response = requests.post(url, data=json.dumps(data_1), headers=headers)
 
