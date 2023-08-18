@@ -3,6 +3,7 @@ import requests
 import json
 load_data_from_file(r"data/key.json")
 
+
 #task
 task_name = "inprompt"
 task_messages = load_ex(task_name)
